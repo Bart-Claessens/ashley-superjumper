@@ -1,2 +1,2 @@
-language: java
-script: ./gradlew
+language: android
+script: ./gradlew html:dist
