@@ -1,2 +1,5 @@
 language: android
 script: ./gradlew html:dist
+deploy:
+  provider: azure_web_apps
+  local_dir: html/build/dist
